@@ -1,0 +1,7 @@
+<h1>Enter your WOD</h1>
+
+<%= simple_form_for @wod do |f| %>
+  <%= f.input :workout %>
+  <br/>
+  <%= f.submit 'Submit', :class => 'btn btn-danger'%>
+<% end %>
